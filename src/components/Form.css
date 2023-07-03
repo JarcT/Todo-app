@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.todo-form {
+    padding: 1rem;
+    display: grid;
+    justify-items: center;
+}
+.label {
+    font-size: 1.5rem;
+    padding-right: .5rem;
+}
+.input {
+    font-size: 1.2rem;
+    background: transparent;
+        border-radius: 1rem;
+        border: 2px solid #f0f8ff;
+        color: #f0f8ff;
+        padding: .5rem;
+        transition: all .1s;
+}
+.input:focus {
+    outline: 2px solid #f0f8ff;
+}
+
+.btn {
+    font-size: 1.1rem;
+    background: transparent;
+    border-radius: .9rem;
+    border: 2px solid #f0f8ff;
+    color: #f0f8ff;
+    margin-top: .8rem;
+    padding: .3rem 1rem;
+    transition: all .7s;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #f0f8ff;
+    color: #101935;
+    border: 2px solid #101935;
+    outline: 1px solid #f0f8ff;
+}

@@ -1,0 +1,37 @@
+.task {
+    display: flex;
+    padding: .7rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #f0f8ff;
+    border-radius: .5rem;
+    color: #f0f8ff;
+}
+.task-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-right: .5rem;
+}
+.task-group input {
+    transform: scale(1.7);
+}
+
+.checkbox:checked+label {
+    text-decoration: line-through;
+}
+
+.btn-delete {
+    padding: .3rem;
+    color: #101935;
+    font-family: 'Domine', serif;
+    background-color: #D80032;
+    border: 2px solid #f0f8ff;
+    border-radius: .6rem;
+    cursor: pointer;
+    transition: all .7s;
+}
+.btn-delete:hover {
+    background-color: #81021f;
+    color: #f0f8ff;
+}
